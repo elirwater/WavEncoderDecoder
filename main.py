@@ -5,7 +5,7 @@ import string_to_binary_encoder
 
 
 if __name__ == '__main__':
-    data_in = "hij ! dsds"
+    data_in = "Hello World!"
     sample_rate = 4410  # industry standard sample rate
     max_amplitude = 1  # the floating point value we want to assign to our 1 bits
     duration_ms_per_bit = 2  # The duration of the wav

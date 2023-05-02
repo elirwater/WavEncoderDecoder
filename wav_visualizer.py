@@ -18,4 +18,5 @@ def visualize_wav_file(wav_fn, duration_ms):
     plt.plot(duration_x_values, wav_data)
     plt.ylabel("Amplitude")
     plt.xlabel("Time")
+    plt.title("'Hello World!' Binary Encoded .Wav File Visualization")
     plt.show()
